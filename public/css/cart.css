@@ -1,0 +1,94 @@
+
+
+.content{
+    font-size: 18px;
+}
+.cart-tag, .stastus-cart{
+    text-align: center;
+    padding: 25px 0;
+    text-transform: uppercase;
+}
+.table tr{
+    line-height: 65px;
+    text-align: center;
+}
+
+.table th{
+    vertical-align: middle;
+    padding: 0;
+}
+
+.table td{
+    border-top: none ;
+    padding: 0;
+
+}
+.title{
+    text-align: start;
+    display: flex;
+    display:-webkit-box;
+    -webkit-line-clamp:1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+.title img{
+    height: 45px;
+    width: 45px;
+    scale: 1.5;
+}
+
+.delete i{
+    color: #ea2b44;
+    font-size: 27px;
+}
+.delete i:hover{
+    color: #c31930;
+
+}
+.tt-price{
+    text-align: end;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 15px !important;
+
+}
+.tt-price-number{
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.f-link{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 376px) {
+*{
+    font-size: 10px;
+}
+.table tr{
+    line-height: 45px;
+    text-align: center;
+}
+.title img{
+    height: 30px;
+    width: 30px;
+    scale: 1.3;
+}
+.delete i{
+    font-size: 17px;
+}
+.tt-price{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+.tt-price-number{
+    font-size: 13px;
+    font-weight: 600;
+}
+}

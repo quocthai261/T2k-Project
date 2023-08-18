@@ -1,0 +1,53 @@
+
+.order-tag, .inf-order, .stastus-order, .inf-user{
+    text-align: center;
+    padding: 25px 0;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.userf{
+    display: flex;
+    align-items: baseline;
+}
+.infu{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.tt-price-order, .stastus{
+    text-align: start;
+    font-size: 20px;
+    font-weight: 600;
+}
+.tt-price-number-order{
+    font-size: 20px;
+    font-weight: 600;
+}
+#order_mess{
+    color: #25ae25;
+}
+.stastus-payment, #order_mess{
+    text-align: end;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 25px;
+}
+
+@media screen and (max-width: 376px) {
+
+.infu{
+    font-size: 15px;
+    margin-left: 0;
+}
+.tt-price-order,  .stastus{
+    text-align: start;
+    font-size: 13px;
+    font-weight: 600;
+}
+.tt-price-number-order,  .stastus-payment, #order_mess{
+    text-align: end;
+    font-size: 13px;
+    font-weight: 600;
+    padding-right: 0;
+}
+}

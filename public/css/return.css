@@ -1,0 +1,32 @@
+.return{
+    position: absolute;
+}
+.return i{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #FECD70;
+    font-size: 35px;
+}
+.return i:hover{
+    color: #FECD70;
+    opacity: 0.65;
+}
+.cart-button i:active{
+    color: #003468;
+}
+.quantity{
+    font-weight: 700;
+    bottom: 85px;
+    right: 25px;
+    background-color: #ad2a36;
+    color: white;
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    border-radius: 50%;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+}

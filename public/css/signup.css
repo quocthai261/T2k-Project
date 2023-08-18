@@ -1,0 +1,199 @@
+body {
+    background-color: #E1E8EE;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-structor {
+    height: 550px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: rgb(0,0,0, 0.2);
+    user-select: none;
+}
+.signup {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    filter: blur(0.4px);
+}
+
+#signup{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-shadow: 0px 0px 15px #000000;
+}
+
+.form-holder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    height: 45px;
+    width: 75%;
+    outline: none;
+    outline-style: none;
+    border: none;
+    font-size: 14px;
+}
+
+.input-name {
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1) !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0 15px;
+}
+
+.input-user, .input-name, .input-pw, .input-phone{
+    padding: 0 15px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1) !important;
+}
+
+.input-address{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 0 15px;
+}
+.submit-btn {
+    width: 75%;
+    height: 45px;
+    border-radius: 15px;
+    outline: none;
+    outline-style: none;
+    border: none;
+    background-color: #fff;
+    color: #ad2a36;
+    font-weight: 700;
+}
+
+.submit-btn:hover{
+    background-color: #ad2a36;
+    color: #fff;
+    font-weight: 700;
+}
+.login {
+    position: absolute;
+    bottom: -140px;
+    width: 670px;
+    height: 200px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: #fff;
+  
+}
+
+.login-btn {
+    height: 40px;
+    outline: none;
+    outline-style: none;
+    border: none;
+    left: 270px;
+    right: 270px;
+    background-color: #fff;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 10px !important;
+}
+
+.log{
+    font-weight: 700;
+    color: #003468;
+    text-decoration: underline ;
+}
+
+.return i{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: white;
+    font-size: 35px;
+    text-shadow: 0px 0px 15px #000000;
+    opacity: 0.65;
+}
+.return i:hover{
+    color: white;
+    text-shadow: 0px 0px 15px #c0c0c0;
+    opacity: 1;
+}
+
+@media screen and (max-width: 767.98px) {
+    .form-structor {
+        height: 430px;
+        width: 350px;
+    }
+    #signup{
+        font-size: 40px;
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    .input {
+        height: 40px;
+        font-size: 13px;
+    }
+    .submit-btn {
+        height: 40px;
+    }
+    .login {
+        bottom: -155px;
+    }
+    .login-btn {
+        height: 35px;
+        bottom: 160px;
+    }
+}
+@media screen and (max-width: 376px) {
+    .form-structor {
+        height: 350px;
+        width: 270px;
+    }
+    .signup{
+        width: 95%;
+    }
+    #signup{
+        font-size: 35px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .input {
+        height: 35px;
+        font-size: 12px;
+    }
+    .submit-btn {
+        height: 35px;
+        margin-top: 10px !important;
+    }
+    .login {
+        bottom: -160px;
+    }
+    .login-btn {
+        height: 30px;
+        bottom: 167px;
+        font-size: 17px;
+    }
+    .log{
+        font-size: 17px;
+    }
+}
