@@ -14,6 +14,8 @@ o	Front-end: HTML/CSS, Boostrap.
 
 o	Back-end: PHPMyAdmin, PHP.
 
+•	Đường dẫn Website thử nghiệm: http://t2kstore.infinityfreeapp.com
+
 3.Các tính năng
 
 Đăng ký, Đăng nhập, Đăng xuất
@@ -28,4 +30,3 @@ Các chức năng cho Admin: Quản lý sản phẩm, quản lý tài khoản,..
 
 4.Giao diện
 - Trang đăng nhập, đăng ký:
-
