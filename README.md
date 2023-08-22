@@ -10,7 +10,7 @@
 
 •	Công nghệ sử dụng:
 
-o	Front-end: HTML/CSS, Boostrap.
+o	Front-end: HTML/CSS, Javascript, Boostrap.
 
 o	Back-end: PHPMyAdmin, PHP.
 
@@ -31,7 +31,7 @@ Các chức năng cho Admin: Quản lý sản phẩm, quản lý tài khoản,..
 4.Giao diện
 - Trang đăng nhập, đăng ký:
   ![trangdangnhap](https://github.com/quocthai261/T2k-Project/assets/91470802/d4b3b9ee-fc97-4d78-8947-7f14b73a959b)
-![trangdangky](https://github.com/quocthai261/T2k-Project/assets/91470802/31bcb301-1b9c-441d-a127-b5bd8c7ea855)
+  ![trangdangky](https://github.com/quocthai261/T2k-Project/assets/91470802/31bcb301-1b9c-441d-a127-b5bd8c7ea855)
 
 - Trang chủ:
 ![trangchu](https://github.com/quocthai261/T2k-Project/assets/91470802/affdef6a-b4e1-4eca-b2eb-c9a07c9f4005)
